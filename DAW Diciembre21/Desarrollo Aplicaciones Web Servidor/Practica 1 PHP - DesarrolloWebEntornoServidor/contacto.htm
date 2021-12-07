@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+    <html lang="es"> <!--en la etiqueta html, ya indicamos el idioma de la web -->
+    <head>
+    <meta charset="UTF-8"> <!-- también decimos el tipo de codificación, para que caracteres como la ñ o determinados acentos, se muestren con normalidad.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica1 PHP  - Jose Sánchez Mateo</title>
+
+    <!--Libreria bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <!--Aquí va nuestro estilo para la web-->
+    <link rel="stylesheet" type="text/css" href="Css/contacto.css">
+
+    </head>
+    <body>
+        <header>
+        </header>
+
+        <!-- Ahora empezamos con la sección primera-->
+        <!-- Primero añadimos contenedor para el logotipo de la empresa -->
+        <section class="container miFormu">
+            <h3>Sobre Nosotros</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1085.5181565256487!2d-0.8680524850543379!3d38.053418823104565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ses!2ses!4v1632191728687!5m2!1ses!2ses" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <div class="container">
+                <div class="row">
+                    <h3>Formulario de Contacto</h3>
+                    <form method="POST" action="ws/crearUsuario.php">       
+                        <p class="name">Nombre: <input type="text" id="txtNombre" name="txtNombre" /></p>
+                        <p class="apellidos">Apellidos: <input type="text" id="txtApellidos" name="txtapellidos" /></p>
+
+                        <p class="email">Email: <input type="text" id="txtEmail" name="txtEmail" /></p>
+                        <p class="pass">Contraseña: <input type="text" id="txtpassword" name="txtpassword" /></p>
+
+                        <p class="numero">Número de telefono: <input type="number" id="txtNumero" name="txtNumero"/></p>
+                        <p class="sexo">Sexo: <input type="text" id="txtaa" name="txtaa" /></p>
+                        
+                        <div class="col-md-6 botonSub">
+                            <input type="submit" value="Enviar" class="btn btn-success">
+                        </div>
+                        <div class="col-md-6 botonRes">
+                            <input type="reset" value="Borrar" class="btn btn-danger">
+                        </div>                          
+                    </form>
+                </div>
+            </div>            
+        </section>
+        <footer>
+        </footer>
+    </body>
+</html>

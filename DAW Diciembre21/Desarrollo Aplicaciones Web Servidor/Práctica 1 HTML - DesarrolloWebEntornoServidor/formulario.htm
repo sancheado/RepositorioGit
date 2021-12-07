@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+    <head>
+        <title>formulario - Práctica1[JoseSánchezMateo]</title>
+        <link rel="icon" type="image/x-icon" href="img/practica1.png" />
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+
+    <body>
+        <heade>
+            <nav>
+                <ul>
+                    <li><a href="index.htm">Inicio</a></li>
+                    <li><a href="tabla.htm">Tablas</a></li>
+                    <li><a href="formulario.htm">Formulario</a></li>
+                    <li><a href="test1.htm">Test1</a></li>
+                    <li><a href="test2.htm">Test2</a></li>
+                </ul>
+            </nav>
+        </header>
+            <!-- Seccion Principal -->
+            <section>
+                <h5>A continuación rellenara nuestro formulario para tener sus datos en nuestra base de datos.</h5>
+                <form action="#">
+                    <div>
+                        <label for="nombre">Introduzca su Nombre: <input type="text" id="name"></label>
+                    </div>
+                    <div>
+                        <label for="apellido">Introduzca sus apellidos:  <input type="text" id="ape"></label>
+                    </div>
+                    <div>
+                        <label for="pass">Introduzca su contraseña:  <input type="password" id="myPass"></label>
+                    </div>
+                    <div>
+                        <label for="telefono">Introduzca su número de telefono:  <input type="number" id="phone"></label>
+                    </div>
+                    <div>
+                        <label for="email">Introduzca su email:  <input type="email" id="email"></label>
+                    </div>
+                    <div>
+                        <input type="radio" id="hombre" name="tipo_sexo" value="H">
+                        <label for="radios">H</label>
+                        <input type="radio" id="mujer" name="tipo_sexo" value="M">
+                        <label for="css">M</label>
+                    </div>               
+                    <div><input type="submit" value="Enviar"></div>     
+                </form>
+            </section>
+            <footer>
+                <p>Todo esto es el footer, que usaremos para añadir links y demas contenido.</p>
+            </footer>
+    </body>
+</html>

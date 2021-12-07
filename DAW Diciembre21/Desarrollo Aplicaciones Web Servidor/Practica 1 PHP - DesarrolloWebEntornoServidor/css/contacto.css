@@ -1,0 +1,26 @@
+/*Preformateamos todos los estilos */
+*{border:0;margin:0;padding:0;box-sizing: border-box;}
+.miFormu{background-color: #000;color:#fefefe;}
+.miFormu h3{text-align: center;margin:25px auto; padding: 20px;line-height: 37px;font-weight: 700;font-family: 'Courier New', Courier, monospace;}
+.miFormu p{font-family: 'Courier New', Courier, monospace;text-align: justify;line-height: 32px;}
+form{background-color: #e9e9e9;color:#000;display: grid;grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr;grid-template-areas: "nombre apellidos"
+    "email contraseña"
+    "numero sexo"
+    "botonSub botonRes";margin-bottom: 25px;}
+    .name{grid-area: nombre; }
+    .apellidos{grid-area: apellidos;}
+    .email{grid-area: email;}
+    .pass{grid-area: contraseña;}
+    .numero{grid-area: numero;}
+    .sexo{grid-area: sexo;}
+
+   .name,.apellidos,.email,.pass,.numero,.sexo,.botonSub,.botonRes{padding:20px;margin: 10px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+   iframe{width: 100%;}
+   input[type="text"],input[type="number"]{width: 75%;margin: 5px auto;padding: 2px;display: flex;justify-content: center;}
+   form .col-md-6 input[type="reset"],form .col-md-6 input[type="submit"]{width: 100%;padding: 10px;margin: 10px 50%;}
+
+   .miFormu .row h3,.miFormu .row h4{text-align: center;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;line-height: 32px;}
+   .miFormu .row p{text-align: justify;width: 75%;margin:10px auto; padding: 10px;}
+   .col-md-2{width: 16.66%;}
+   .col-md-2 p{text-align: center;color:#fff}
+   .col-md-2 p b{color:#46bb6c}

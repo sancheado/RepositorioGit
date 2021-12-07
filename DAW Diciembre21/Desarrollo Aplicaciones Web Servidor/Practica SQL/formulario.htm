@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registro de nuevo Alumno</title>
+        <!--Libreria bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        
+        <!--Aquí va nuestro estilo para la web-->
+        <link rel="stylesheet" type="text/css" href="Css/myStile.css">
+        
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ephesis&family=Noto+Sans+Display:ital,wght@1,100&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <div class="container miSection">
+            <form method="GET" action="ws/crearUsuario2.php">
+                <div class="row">
+                    <h2>Formulario de registro</h2>
+                    <p>Nombre</p>
+                    <input type="text" id="txtNombre" name="txtNombre" class="input-group-text" />
+                    <p>Apellidos</p>
+                    <input type="text" id="txtApellidos" name="txtApellidos" class="input-group-text" required/>
+                    <p>Email</p>
+                    <input type="email" id="txtEmail" name="txtEmail" class="input-group-text" required/>
+                    <p>Contraseña</p>
+                    <input type="password" id="txtPass" name="txtPass" class="input-group-text" required/>
+                    <p>Numero</p>
+                    <input type="text" id="txtNumero" name="txtNumero" class="input-group-text" />
+                    <p>Sexo</p>
+                    <input type="text" id="txtSexo" name="txtSexo" class="input-group-text" />
+                    <p>Fecha Nacimiento</p>
+                    <input type="date" id="txtFecha" name="txtFecha" class="input-group-text" />
+                    <input type="submit" class="btn btn-outline-success miSubmit" value="Enviar" />
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

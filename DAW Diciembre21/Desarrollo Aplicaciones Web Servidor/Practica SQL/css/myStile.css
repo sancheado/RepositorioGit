@@ -1,0 +1,16 @@
+*{margin:0;padding: 0;box-sizing: border-box;}
+
+body{background-color: #dedede;color:#000;}
+
+.miSection{margin:50px auto;padding: 20px;border:.5px solid #000;}
+.miSection h2{width: 100%;text-align: center;padding: 20px;margin:15px auto;font-size:33px;font-family: 'Courier New', Courier, monospace;}
+.miSection .row{width: 60%;margin:10px auto;}
+.miSection .col-md-6 p{text-align: right;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+.miSection .col-md-6 input{width: 100%;}
+.miSubmit{margin:20px auto; padding: 10px;}
+
+.miTabla{width: 100%;border:1px solid #46bb6c;padding: 20px;margin:10px auto;}
+.btnVolver{width: 35%;margin: 10px auto;padding: 10px;display: flex;justify-content: center;}
+
+.alert-danger,.alert-primary{width: 65%;margin:10px auto;padding: 20px;text-align: center;}
+
