@@ -43,8 +43,8 @@
                             <td  scope="row txt">{{$alumno->sexo }}</td>
                             <td  scope="row">
                                 <a class="col" href="/alumnos/ver/{{ $alumno->id }}">Ver</i></a>
-                                <a class="col"  href="/editar/{{ $alumno->id }}">Editar</a>
-                                <a class="col"  href="/eliminar/{{ $alumno->id }}">Eliminar</a>
+                                <a class="col"  href="/alumnos/editar/{{ $alumno->id }}">Editar</a>
+                                <a class="col"  href="/alumnos/eliminar/{{ $alumno->id }}">Eliminar</a>
                             </td>
                         </tr>
                     @endforeach

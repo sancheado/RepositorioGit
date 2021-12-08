@@ -38,10 +38,10 @@
             <a class="btn btn-secondary" href=""   onclick="mostrarAlumno();">Obtener Alumno por id</a>
             </div>
             <div class="col">
-                <a class="btn btn-primary" href="../crear">Nuevo Alumno</a>
+                <a class="btn btn-primary" href="#">Nuevo Alumno</a>
             </div>
             <div class="col">
-                <a class="btn btn-warning" href="../ver">Actualizar Alumno</a>
+                <a class="btn btn-warning" href="#" onclick="editarAlumno();">Actualizar Alumno</a>
             </div>
             <div class="col">
                 <a class="btn btn-danger" href="#"  onclick="eliminarAlumno();">Eliminar Alumno</a>
